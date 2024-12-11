@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am a third-year student at UC Berkeley, pursuing a dual major in Computer Science and Applied Mathematics, with a strong passion for the AI industry and AI research. My academic journey is complemented by hands-on experience as a research assistant at Tsinghua University and later a researcher at [Berkeley Artificial Intelligence Research(BAIR)](https://bair.berkeley.edu/) adviced by Dr.[Roei Herzig](https://roeiherz.github.io/) and Professor [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), My research interests are Robotics, AI Agents, and Reinforcement Learning. I am dedicated to exploring the transformative potential of AI agents and eager to contribute to the field through innovative research and practical applications.
 
 A data-driven personal website
 ======
