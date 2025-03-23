@@ -1,5 +1,6 @@
 ---
 title: "AToM-Bot: Embodied Fulfillment of Unspoken Human Needs with Affective Theory of Mind"
+author: Wei Ding , Fanhong Li , Ziteng Ji , Zhengrong Xue , Jia Liu
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
