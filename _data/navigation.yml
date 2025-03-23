@@ -6,19 +6,13 @@
 
 main:
   - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
+    url: /https://zitengji0618.github.io/academicpage//
 
   - title: "Teaching"
     url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
     
   - title: "CV"
     url: /cv/
