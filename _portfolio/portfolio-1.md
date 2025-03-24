@@ -4,5 +4,5 @@ excerpt: "Design and implement control strategies for a robotic manipulator to e
 collection: portfolio
 ---
 
-[Download PDF](assets/EECS106B_Project_1.pdf)
+[Download PDF](/assets/EECS106B_Project_1.pdf)
  
