@@ -1,7 +1,8 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Feedback Controllers and Visual Servoing"
+excerpt: "Design and implement control strategies for a robotic manipulator to execute precise trajectories and perform visual servoing<br/><img src='/images/eecs106b_project_1_figure.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+[Download PDF](assets/EECS106B_Project_1.pdf)
+ 
