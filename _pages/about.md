@@ -16,7 +16,3 @@ My research interests are Robotics, AI Agents, and Reinforcement Learning.
 
 
 
-
-Last updated 3/22/2025
-
-
