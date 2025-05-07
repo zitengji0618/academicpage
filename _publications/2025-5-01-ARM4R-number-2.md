@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-5-01-ARM4R-number-2
 excerpt: 'ARM4R, an auto-regressive model for robotic control pre-trained on 4D human video representations, which lifts 2D keypoints into 3D via monocular depth to enable effective transfer from human videos to low-level robot tasks.'
 date: 2025-5-1
-venue: 'ICML 2025'
+venue: 'ICML'
 paperurl: 'https://arxiv.org/abs/2502.13142'
 ---
 Dantong Niu<sup>\*</sup>, Yuvan Sharma<sup>\*</sup>, Haoru Xue, Giscard Biamby, Junyi Zhang, **Ziteng Ji**, Trevor Darrell, Roei Herzig
