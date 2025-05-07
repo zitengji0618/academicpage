@@ -2,10 +2,10 @@
 title: "AToM-Bot: Embodied Fulfillment of Unspoken Human Needs with Affective Theory of Mind"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2024-6-20-AToM-Bot-number-1
 excerpt: 'AToM-Bot, a novel task generation and execution framework for proactive robot-human interaction, which leverages the human mental and physical state inference capabilities of the Vision Language Model (VLM) prompted by the Affective Theory of Mind (AToM)'
 date: 2024-6-20
-venue: 'arxiv'
+venue: 'RSS Workshop'
 paperurl: 'https://arxiv.org/pdf/2406.08455'
 ---
 Wei Ding<sup>\*</sup>, Fanhong Li<sup>\*</sup>, **Ziteng Ji**, Zhengrong Xue, Jia Liu
