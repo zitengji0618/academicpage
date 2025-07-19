@@ -7,9 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year student at University of California, Berkeley, pursuing a dual major in Computer Science and Applied Mathematics, with a strong passion for the AI industry and AI research. My academic journey is complemented by hands-on experience as a research assistant at Tsinghua University and later a researcher at [Berkeley Artificial Intelligence Research(BAIR)](https://bair.berkeley.edu/) adviced by Dr. [Roei Herzig](https://roeiherz.github.io/) and Professor [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/).
+I'm a fourth-year undergraduate student at UC Berkeley studying Computer Science and Applied Mathematics.
+
+I am grateful to be adviced by Professor [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and working with Dr. [Roei Herzig](https://roeiherz.github.io/) at [Berkeley Artificial Intelligence Research(BAIR)](https://bair.berkeley.edu/). Previously, I have also worked as a research assistant at Tsinghua University.
 
 This summer I am joining [Search-based Planning Lab](https://www.ri.cmu.edu/robotics-groups/search-based-planning-laboratory/) at [Carnegie Mellon University Robotics Institute](https://www.ri.cmu.edu/), working with [Rishi Veerapaneni](https://rishi-v.github.io/) under Professor [Maxim Likhachev](https://www.cs.cmu.edu/~maxim/).
+
+I am applying for PhD in fall 2025, please feel free to reach out to me!
 
 Research Interest
 ======
