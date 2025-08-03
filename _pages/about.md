@@ -13,7 +13,7 @@ I am grateful to be adviced by Professor [Trevor Darrell](https://people.eecs.be
 
 This summer I am joining [Search-based Planning Lab](https://www.ri.cmu.edu/robotics-groups/search-based-planning-laboratory/) at [Carnegie Mellon University Robotics Institute](https://www.ri.cmu.edu/), working with [Rishi Veerapaneni](https://rishi-v.github.io/) under Professor [Maxim Likhachev](https://www.cs.cmu.edu/~maxim/).
 
-I am applying for PhD, please feel free to reach out to me!
+I am applying for PhD in the upcoming application cycles, please feel free to reach out to me!
 
 Research Interest
 ======
