@@ -5,10 +5,15 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+## Robotics
+{% assign robotics = site.portfolio | where: "area", "robotics" | sort: "date" | reverse %}
+{% for post in robotics %}
+  {% include archive-single.html %}
+{% endfor %}
 
-
-{% for post in site.portfolio %}
+## Computer Vision
+{% assign cv = site.portfolio | where: "area", "computer-vision" | sort: "date" | reverse %}
+{% for post in cv %}
   {% include archive-single.html %}
 {% endfor %}
 
