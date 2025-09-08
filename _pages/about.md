@@ -17,7 +17,7 @@ I am applying for PhD in the upcoming application cycles, please feel free to re
 
 Research Interest
 ======
-My research interests are Robotics and Robot Learning.
+My research interests lie in robotics and robot learning, with a focus on enabling robots to acquire sophisticated skills through learning. To that end, I’m interested in both generalizable robots that adapt across environments and expert robots tuned for high performance tasks.
 
 
 
