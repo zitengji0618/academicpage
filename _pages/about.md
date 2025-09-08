@@ -17,7 +17,7 @@ I am applying for PhD in the upcoming application cycles, please feel free to re
 
 Research Interest
 ======
-My research interests are Robotics and Reinforcement Learning.
+My research interests are Robotics and Robot Learning.
 
 
 
