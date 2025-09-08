@@ -5,13 +5,13 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-## Robotics
+<h2>Robotics</h2>
 {% assign robotics = site.portfolio | where: "area", "robotics" | sort: "date" | reverse %}
 {% for post in robotics %}
   {% include archive-single.html %}
 {% endfor %}
 
-## Computer Vision
+<h2>Computer Vision</h2>
 {% assign cv = site.portfolio | where: "area", "computer-vision" | sort: "date" | reverse %}
 {% for post in cv %}
   {% include archive-single.html %}
