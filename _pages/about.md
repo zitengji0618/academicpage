@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth-year undergraduate student at UC Berkeley studying Computer Science and Applied Mathematics.
+I'm a fourth-year undergraduate student at UC Berkeley studying Computer Science.
 
 I am grateful to be adviced by Professor [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and working with Dr. [Roei Herzig](https://roeiherz.github.io/) at [Berkeley Artificial Intelligence Research(BAIR)](https://bair.berkeley.edu/). Previously, I have also worked as a research assistant at Tsinghua University.
 
