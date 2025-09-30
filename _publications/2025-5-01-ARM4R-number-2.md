@@ -7,6 +7,7 @@ excerpt: 'ARM4R, an auto-regressive model for robotic control pre-trained on 4D 
 date: 2025-5-1
 venue: 'ICML'
 paperurl: 'https://arxiv.org/abs/2502.13142'
+website: 'https://arm4r.github.io/'
 ---
 Dantong Niu<sup>\*</sup>, Yuvan Sharma<sup>\*</sup>, Haoru Xue, Giscard Biamby, Junyi Zhang, **Ziteng Ji**, Trevor Darrell, Roei Herzig
 
