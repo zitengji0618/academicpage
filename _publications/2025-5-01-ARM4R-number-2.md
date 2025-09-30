@@ -1,15 +1,17 @@
 ---
 title: "Pre-training Auto-regressive Robotic Models with 4D Representations"
 collection: publications
-category: manuscripts
-permalink: /publication/2025-5-01-ARM4R-number-2
-excerpt: 'ARM4R, an auto-regressive model for robotic control pre-trained on 4D human video representations, which lifts 2D keypoints into 3D via monocular depth to enable effective transfer from human videos to low-level robot tasks.'
-date: 2025-5-1
-venue: 'ICML'
-paperurl: 'https://arxiv.org/abs/2502.13142'
-website: 'https://arm4r.github.io/'
+permalink: /publication/arm4r-2025
+excerpt: "ARM4R, an auto-regressive model for robotic control pre-trained on 4D human video representations, which lifts 2D keypoints into 3D via monocular depth to enable effective transfer from human videos to low-level robot tasks."
+date: 2025-05-01
+venue: "ICML"
+header:
+  teaser: arm4r_teaser.jpg   # put this image at /images/arm4r_teaser.jpg
+paperurl: "https://arxiv.org/pdf/2502.13142"   # direct PDF (or keep abs link if you prefer)
+website: "https://arm4r.github.io/"
 ---
-Dantong Niu<sup>\*</sup>, Yuvan Sharma<sup>\*</sup>, Haoru Xue, Giscard Biamby, Junyi Zhang, **Ziteng Ji**, Trevor Darrell, Roei Herzig
+
+Dantong Niu<sup>*</sup>, Yuvan Sharma<sup>*</sup>, Haoru Xue, Giscard Biamby, Junyi Zhang, **Ziteng Ji**, Trevor Darrell, Roei Herzig
 
 <sup>*</sup> (Equal contribution)
 
