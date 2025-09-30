@@ -2,10 +2,9 @@
 title: "Pre-training Auto-regressive Robotic Models with 4D Representations"
 collection: publications
 permalink: /publication/arm4r-2025
-excerpt: "ARM4R, an auto-regressive model for robotic control pre-trained on 4D human video representations, which lifts 2D keypoints into 3D via monocular depth to enable effective transfer from human videos to low-level robot tasks."
 date: 2025-05-01
 venue: "ICML"
-category: conference
+category: manuscripts
 header:
   teaser: arm4r_teaser.png
 paperurl: "https://arxiv.org/pdf/2502.13142"
