@@ -12,7 +12,7 @@ website: "https://rishi-v.github.io/CBS-Protocol/"
 excerpt: "co-second author, alphabetical order"
 ---
 
-Rishi Veerapaneni, Alvin Tang<sup>*</sup>, Haodong He<sup>*</sup>, Sophia Zhao<sup>*</sup>, Viraj Shah<sup>*</sup>, Yidai Cen<sup>*</sup> **Ziteng Ji**<sup>*</sup>, Gabriel Olin<sup>†</sup>, Jon Arrizabalaga<sup>†</sup>, Yorai Shaoul<sup>†</sup>, Jiaoyang Li, Maxim Likhachev
+authors: "Rishi Veerapaneni, Alvin Tang<sup>*</sup>, Haodong He<sup>*</sup>, Sophia Zhao<sup>*</sup>, Viraj Shah<sup>*</sup>, Yidai Cen<sup>*</sup> **Ziteng Ji**<sup>*</sup>, Gabriel Olin<sup>†</sup>, Jon Arrizabalaga<sup>†</sup>, Yorai Shaoul<sup>†</sup>, Jiaoyang Li, Maxim Likhachev"
 
 <sup>*</sup> (Equal contribution)
 <sup>†</sup> (Equal contribution)
