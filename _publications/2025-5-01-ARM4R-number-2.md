@@ -6,8 +6,8 @@ excerpt: "ARM4R, an auto-regressive model for robotic control pre-trained on 4D 
 date: 2025-05-01
 venue: "ICML"
 header:
-  teaser: arm4r_teaser.jpg   # put this image at /images/arm4r_teaser.jpg
-paperurl: "https://arxiv.org/pdf/2502.13142"   # direct PDF (or keep abs link if you prefer)
+  teaser: arm4r_teaser.png
+paperurl: "https://arxiv.org/pdf/2502.13142"
 website: "https://arm4r.github.io/"
 ---
 
