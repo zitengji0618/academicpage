@@ -39,3 +39,29 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+.btn--paper {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+.btn--paper:hover,
+.btn--paper:focus {
+  background-color: #1e40af;
+  border-color: #1e40af;
+  color: #fff;
+}
+
+.btn--website {
+  background-color: #16a34a;
+  border-color: #16a34a;
+  color: #fff;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+.btn--website:hover,
+.btn--website:focus {
+  background-color: #15803d;
+  border-color: #15803d;
+  color: #fff;
+}
