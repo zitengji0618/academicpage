@@ -7,7 +7,7 @@ date: 2025-09-15
 venue: 'under review'
 header:
   teaser: cbs_teaser.png
-paperurl: 'coming soon'
+paperurl: 'https://arxiv.org/pdf/2510.00425'
 website: "https://rishi-v.github.io/CBS-Protocol/"
 excerpt: "co-second author, alphabetical order"
 authors: "Rishi Veerapaneni, Alvin Tang<sup>*</sup>, Haodong He<sup>*</sup>, Sophia Zhao<sup>*</sup>, Viraj Shah<sup>*</sup>, Yidai Cen<sup>*</sup>, **Ziteng Ji**<sup>*</sup>, Gabriel Olin<sup>†</sup>, Jon Arrizabalaga<sup>†</sup>, Yorai Shaoul<sup>†</sup>, Jiaoyang Li, Maxim Likhachev"
