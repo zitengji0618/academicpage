@@ -9,7 +9,7 @@ redirect_from:
 
 I'm a fourth-year undergraduate student at UC Berkeley studying Computer Science.
 
-I am grateful to be adviced by Professor [Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/) and working with [Xiaoyu Huang](https://scholar.google.com/citations?user=G-x_szsAAAAJ&hl=en) at [Hybrid Robotics](https://hybrid-robotics.berkeley.edu/index.html) under [Berkeley Artificial Intelligence Research(BAIR)](https://bair.berkeley.edu/).
+I am grateful to be adviced by Professor [Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/) and working with [Xiaoyu Huang](https://scholar.google.com/citations?user=G-x_szsAAAAJ&hl=en) at [Hybrid Robotics](https://hybrid-robotics.berkeley.edu/index.html).
 
 Prior to that, I was also fortunate to be adviced by [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and working with Dr. [Roei Herzig](https://roeiherz.github.io/) at [Berkeley Artificial Intelligence Research(BAIR)](https://bair.berkeley.edu/). Previously, I have also worked as a research assistant at Tsinghua University.
 
