@@ -3,8 +3,8 @@ title: "Conflict-Based Search as a Protocol: A Multi-Agent Motion Planning Proto
 collection: publications
 category: manuscripts
 permalink: /publication/2025-9-15-cbs-number-2
-date: 2025-09-15
-venue: 'under review'
+date: 2026-01-31
+venue: 'ICRA'
 header:
   teaser: cbs_teaser.png
 paperurl: 'https://arxiv.org/pdf/2510.00425'
