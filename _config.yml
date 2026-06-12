@@ -25,8 +25,8 @@ author:
   name             : "Ziteng (Ender) Ji"
   pronouns         : # example: "she/her"  
   bio              : "🦾🤖"
-  location         : "Berkeley, CA"
-  employer         : "University of California, Berkeley"
+  location         : "Philadelphia, PA"
+  employer         : "University of Pennsylvania"
   uri              : # URL
   email            : "zitengji@berkeley.edu" 
 
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/zitengji0618"
+  github           : "zitengji0618"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/ziteng-ji-80983424a"
+  linkedin         : "ziteng-ji-80983424a"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

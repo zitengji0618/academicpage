@@ -3,30 +3,195 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-entries_layout: list
 classes: wide
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<style>
+  .pub-intro {
+    margin-bottom: 1.5rem;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  .scholar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #003262;
+    color: #fff !important;
+    border: 1px solid #003262;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.15s ease;
+  }
+  .scholar-btn:hover {
+    background: #001f3f;
+    text-decoration: none;
+    color: #fff !important;
+  }
+  .scholar-btn i { font-size: 1.05rem; }
+  .pub-section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #003262;
+    color: #003262;
+  }
+  .pub-card {
+    display: flex;
+    gap: 1.25rem;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+  .pub-card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    border-color: #003262;
+  }
+  .pub-teaser {
+    flex: 0 0 38%;
+    max-width: 340px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .pub-teaser img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  .pub-body { flex: 1; min-width: 0; }
+  .pub-venue, .pub-highlight {
+    display: inline-block;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    margin-right: 0.35rem;
+    letter-spacing: 0.02em;
+  }
+  .pub-venue { background: #003262; }
+  .pub-highlight { background: #e63946; }
+  .pub-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 0.4rem 0;
+    line-height: 1.3;
+    color: #1a1a1a;
+  }
+  .pub-title a { color: inherit; text-decoration: none; }
+  .pub-title a:hover { color: #003262; }
+  .pub-authors {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+  }
+  .pub-note {
+    font-size: 0.82rem;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  .pub-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+  }
+  .pub-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.3rem 0.75rem;
+    background: #fff;
+    color: #003262 !important;
+    border: 1px solid #003262;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .pub-btn:hover {
+    background: #003262;
+    color: #fff !important;
+    text-decoration: none;
+  }
+  .pub-btn i { font-size: 0.9rem; }
+  .pub-btn .hf-icon { width: 14px; height: 14px; display: inline-block; }
+  @media (max-width: 600px) {
+    .pub-card { flex-direction: column; }
+    .pub-teaser { flex: 0 0 auto; width: 100%; max-width: 100%; }
+  }
+</style>
+
+{% if site.author.googlescholar %}
+  <p class="pub-intro">
+    You can also find my articles on
+    <a class="scholar-btn" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar
+    </a>
+  </p>
+{% endif %}
+
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
+      {% if post.category != category[0] %}{% continue %}{% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 class="pub-section-title">{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+
+      <div class="pub-card">
+        {% if post.header.teaser %}
+          <div class="pub-teaser">
+            <img src="{{ post.header.teaser | prepend: '/images/' | prepend: base_path }}" alt="{{ post.title }}">
+          </div>
+        {% endif %}
+        <div class="pub-body">
+          {% if post.venue %}<span class="pub-venue">{{ post.venue }} {{ post.date | date: "%Y" }}</span>{% endif %}
+          {% if post.highlight %}<span class="pub-highlight">{{ post.highlight }}</span>{% endif %}
+          <h3 class="pub-title">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
+            {% else %}
+              <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+            {% endif %}
+          </h3>
+          {% if post.authors %}
+            <p class="pub-authors">{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          {% endif %}
+          {% if post.excerpt %}
+            <p class="pub-note">{{ post.excerpt }}</p>
+          {% endif %}
+          <div class="pub-actions">
+            {% if post.paperurl %}<a class="pub-btn" href="{{ post.paperurl }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i>Paper</a>{% endif %}
+            {% if post.website %}<a class="pub-btn" href="{{ post.website }}" target="_blank" rel="noopener"><i class="fas fa-globe" aria-hidden="true"></i>Website</a>{% endif %}
+            {% if post.code %}<a class="pub-btn" href="{{ post.code }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i>Code</a>{% endif %}
+            {% if post.data %}<a class="pub-btn" href="{{ post.data }}" target="_blank" rel="noopener"><svg class="hf-icon" viewBox="0 0 95 88" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FFD21E" d="M47.21 76.5a34.75 34.75 0 1 0 0-69.5 34.75 34.75 0 0 0 0 69.5Z"/><path fill="#FF9D0B" d="M81.96 41.75a34.75 34.75 0 1 0-69.5 0 34.75 34.75 0 0 0 69.5 0Zm-73.5 0a38.75 38.75 0 1 1 77.5 0 38.75 38.75 0 0 1-77.5 0Z"/><path fill="#3A3B45" d="M58.5 32.3c1.28.44 1.78 3.06 3.07 2.38a5 5 0 1 0-6.76-2.07c.61 1.15 2.55-.72 3.7-.32ZM34.95 32.3c-1.28.44-1.79 3.06-3.07 2.38a5 5 0 1 1 6.76-2.07c-.61 1.15-2.56-.72-3.7-.32Z"/><path fill="#3A3B45" fill-rule="evenodd" d="M46.96 56.29c8.77 0 11.76-7.84 11.76-11.86 0-2.16-1.57-1.41-4.09-.17-2.33 1.14-5.46 2.68-7.67 2.68-4.7 0-11.76-3.86-11.76-2.51 0 4.02 2.99 11.86 11.76 11.86Z"/><path fill="#FF323D" d="M39.43 54a8.7 8.7 0 0 0 7.53 4.28A8.7 8.7 0 0 0 54.48 54a22.4 22.4 0 0 0-7.52-1.36c-3 0-5.7.84-7.53 1.36Z"/></svg>Data</a>{% endif %}
+            {% if post.video %}<a class="pub-btn" href="{{ post.video }}" target="_blank" rel="noopener"><i class="fas fa-play-circle" aria-hidden="true"></i>Video</a>{% endif %}
+            {% if post.bibtex %}<a class="pub-btn" href="{{ post.bibtex }}" target="_blank" rel="noopener"><i class="fas fa-quote-right" aria-hidden="true"></i>BibTeX</a>{% endif %}
+          </div>
+        </div>
+      </div>
     {% endfor %}
   {% endfor %}
 {% else %}
@@ -34,6 +199,3 @@ classes: wide
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-

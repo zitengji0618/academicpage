@@ -5,15 +5,106 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-<h2>Robotics:</h2>
-{% assign robotics = site.portfolio | where: "area", "robotics" | sort: "date" | reverse %}
-{% for post in robotics %}
-  {% include archive-single.html %}
-{% endfor %}
+<style>
+  .portfolio-section { margin-bottom: 3rem; }
+  .portfolio-section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #003262;
+    color: #003262;
+  }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+  .portfolio-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+  .portfolio-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    border-color: #003262;
+  }
+  .portfolio-card-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+    color: #1a1a1a;
+  }
+  .portfolio-card-excerpt {
+    font-size: 0.9rem;
+    color: #555;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+    line-height: 1.45;
+  }
+  .portfolio-card-link {
+    display: inline-block;
+    padding: 0.4rem 0.85rem;
+    background: #003262;
+    color: #fff !important;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    align-self: flex-start;
+    transition: background 0.15s ease;
+  }
+  .portfolio-card-link:hover {
+    background: #001f3f;
+    text-decoration: none;
+  }
+</style>
 
-<h2>Computer Vision:</h2>
-{% assign cv = site.portfolio | where: "area", "computer-vision" | sort: "date" | reverse %}
-{% for post in cv %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign areas = "robotics,computer-vision" | split: "," %}
+{% assign area_titles = "Robotics,Computer Vision" | split: "," %}
 
+{% for area in areas %}
+  {% assign idx = forloop.index0 %}
+  <div class="portfolio-section">
+    <h2 class="portfolio-section-title">{{ area_titles[idx] }}</h2>
+    <div class="portfolio-grid">
+      {% assign items = site.portfolio | where: "area", area | sort: "date" | reverse %}
+      {% for post in items %}
+        {% if post.link %}
+          {% assign target_url = post.link %}
+          {% if post.link_label %}
+            {% assign link_label = post.link_label | append: " →" %}
+          {% elsif post.area == "computer-vision" %}
+            {% assign link_label = "Visit Website →" %}
+          {% else %}
+            {% assign link_label = "Live Demo →" %}
+          {% endif %}
+          {% assign new_tab = true %}
+        {% elsif post.pdf %}
+          {% assign target_url = post.pdf | prepend: site.baseurl %}
+          {% assign link_label = "Download PDF →" %}
+          {% assign new_tab = true %}
+        {% else %}
+          {% assign target_url = post.url | prepend: site.baseurl %}
+          {% assign link_label = "View →" %}
+          {% assign new_tab = false %}
+        {% endif %}
+        <div class="portfolio-card">
+          <h3 class="portfolio-card-title">{{ post.title }}</h3>
+          <p class="portfolio-card-excerpt">{{ post.excerpt }}</p>
+          {% if new_tab %}
+            <a class="portfolio-card-link" href="{{ target_url }}" target="_blank" rel="noopener">{{ link_label }}</a>
+          {% else %}
+            <a class="portfolio-card-link" href="{{ target_url }}">{{ link_label }}</a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

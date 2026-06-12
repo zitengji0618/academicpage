@@ -9,6 +9,8 @@ header:
   teaser: arm4r_teaser.png
 paperurl: "https://arxiv.org/pdf/2502.13142"
 website: "https://arm4r.github.io/"
+code: "https://github.com/Dantong88/arm4r"
+data: "https://huggingface.co/datasets/yuvansharma/arm4r-data"
 ---
 
 Dantong Niu<sup>*</sup>, Yuvan Sharma<sup>*</sup>, Haoru Xue, Giscard Biamby, Junyi Zhang, **Ziteng Ji**, Trevor Darrell, Roei Herzig

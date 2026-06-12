@@ -4,7 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-6-20-AToM-Bot-number-1
 date: 2024-6-20
-venue: 'RSS SIHR Workshop Spotlight'
+venue: 'RSS SIHR Workshop'
+highlight: 'Spotlight 🎉'
 header:
   teaser: atombot_teaser.png
 paperurl: 'https://arxiv.org/pdf/2406.08455'
