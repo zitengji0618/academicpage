@@ -62,6 +62,14 @@ redirect_from:
     margin: 0 0 0.25rem 0;
     line-height: 1.3;
   }
+  .timeline-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .timeline-title a:hover {
+    color: #003262;
+    text-decoration: underline;
+  }
   .timeline-sub {
     font-size: 0.92rem;
     color: #444;
@@ -111,7 +119,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 <div class="timeline-card">
   <div class="timeline-logo"><img src="/academicpage/images/upenn_logo.png" alt="University of Pennsylvania"></div>
   <div class="timeline-body">
-    <h3 class="timeline-title">University of Pennsylvania</h3>
+    <h3 class="timeline-title"><a href="https://www.upenn.edu/" target="_blank" rel="noopener">University of Pennsylvania</a></h3>
     <p class="timeline-sub">M.S. in Robotics</p>
     <div class="timeline-meta">
       <span><i class="fas fa-calendar" aria-hidden="true"></i>2026 – Present</span>
@@ -123,7 +131,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 <div class="timeline-card">
   <div class="timeline-logo"><img src="/academicpage/images/ucberkeley_logo.svg" alt="UC Berkeley"></div>
   <div class="timeline-body">
-    <h3 class="timeline-title">University of California, Berkeley</h3>
+    <h3 class="timeline-title"><a href="https://www.berkeley.edu/" target="_blank" rel="noopener">University of California, Berkeley</a></h3>
     <p class="timeline-sub">B.A. in Computer Science</p>
     <div class="timeline-meta">
       <span><i class="fas fa-calendar" aria-hidden="true"></i>2022 – 2026</span>
@@ -137,7 +145,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 <div class="timeline-card">
   <div class="timeline-logo"><img src="/academicpage/images/bair_logo.png" alt="BAIR"></div>
   <div class="timeline-body">
-    <h3 class="timeline-title">Berkeley Artificial Intelligence Research Lab (BAIR)</h3>
+    <h3 class="timeline-title"><a href="https://bair.berkeley.edu/" target="_blank" rel="noopener">Berkeley Artificial Intelligence Research Lab (BAIR)</a></h3>
     <p class="timeline-sub">Hybrid Robotics · Advisor: Koushil Sreenath</p>
     <div class="timeline-meta">
       <span><i class="fas fa-calendar" aria-hidden="true"></i>Sep. 2025 – Present</span>
@@ -149,7 +157,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 <div class="timeline-card">
   <div class="timeline-logo"><img src="/academicpage/images/cmu_ri_logo.png" alt="CMU RI"></div>
   <div class="timeline-body">
-    <h3 class="timeline-title">Robotics Institute, Carnegie Mellon University</h3>
+    <h3 class="timeline-title"><a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute, Carnegie Mellon University</a></h3>
     <p class="timeline-sub">Search-based Planning Lab · Advisor: Maxim Likhachev</p>
     <div class="timeline-meta">
       <span><i class="fas fa-calendar" aria-hidden="true"></i>May 2025 – Sep. 2025</span>
@@ -161,7 +169,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 <div class="timeline-card">
   <div class="timeline-logo"><img src="/academicpage/images/bair_logo.png" alt="BAIR"></div>
   <div class="timeline-body">
-    <h3 class="timeline-title">Berkeley Artificial Intelligence Research Lab (BAIR)</h3>
+    <h3 class="timeline-title"><a href="https://bair.berkeley.edu/" target="_blank" rel="noopener">Berkeley Artificial Intelligence Research Lab (BAIR)</a></h3>
     <p class="timeline-sub">Darrell Group · Advisor: Trevor Darrell</p>
     <div class="timeline-meta">
       <span><i class="fas fa-calendar" aria-hidden="true"></i>Sep. 2024 – May 2025</span>
@@ -173,7 +181,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 <div class="timeline-card">
   <div class="timeline-logo"><img src="/academicpage/images/tsinghua_logo.png" alt="Tsinghua University"></div>
   <div class="timeline-body">
-    <h3 class="timeline-title">Tsinghua University</h3>
+    <h3 class="timeline-title"><a href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noopener">Tsinghua University</a></h3>
     <p class="timeline-sub">Advisor: Jia Liu</p>
     <div class="timeline-meta">
       <span><i class="fas fa-calendar" aria-hidden="true"></i>May 2024 – Aug. 2024</span>
