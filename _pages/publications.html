@@ -74,7 +74,7 @@ classes: wide
     display: block;
   }
   .pub-body { flex: 1; min-width: 0; }
-  .pub-venue, .pub-highlight {
+  .pub-venue, .pub-highlight, .pub-status {
     display: inline-block;
     color: #fff;
     font-size: 0.75rem;
@@ -87,6 +87,11 @@ classes: wide
   }
   .pub-venue { background: #003262; }
   .pub-highlight { background: #e63946; }
+  .pub-status {
+    background: #fff;
+    color: #003262;
+    border: 1px dashed #003262;
+  }
   .pub-title {
     font-size: 1.1rem;
     font-weight: 600;
@@ -168,6 +173,7 @@ classes: wide
         {% endif %}
         <div class="pub-body">
           {% if post.venue %}<span class="pub-venue">{{ post.venue }} {{ post.date | date: "%Y" }}</span>{% endif %}
+          {% if post.status %}<span class="pub-status">{{ post.status }}</span>{% endif %}
           {% if post.highlight %}<span class="pub-highlight">{{ post.highlight }}</span>{% endif %}
           <h3 class="pub-title">
             {% if post.paperurl %}

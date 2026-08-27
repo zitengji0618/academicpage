@@ -100,7 +100,7 @@ redirect_from:
 </style>
 
 <div class="about-intro" markdown="1">
-I am an incoming master's student in Robotics at the **University of Pennsylvania**.
+I am a first year master's student in Robotics at the **University of Pennsylvania**, [GRASP Lab](https://www.grasp.upenn.edu/).
 
 Previously, I received my bachelor's degree in Computer Science at **UC Berkeley**, where I was fortunate to be advised by Professor [Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/) and Professor [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) at [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/).
 
