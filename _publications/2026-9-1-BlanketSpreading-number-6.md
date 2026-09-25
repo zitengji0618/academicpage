@@ -1,6 +1,7 @@
 ---
 title: "Learning Dynamic Whole-Body Humanoid Blanket Spreading"
 collection: publications
+published: false
 category: manuscripts
 permalink: /publication/2026-9-1-BlanketSpreading-number-6
 date: 2026-9-1
