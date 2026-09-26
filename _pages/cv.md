@@ -11,54 +11,44 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **M.S. in Robotics**, University of Pennsylvania (GRASP Lab), 2026 – Present
+* **B.A. in Computer Science**, University of California, Berkeley, 2022 – 2026
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Sep. 2025 – Present**: Berkeley Artificial Intelligence Research Lab (BAIR), Berkeley, CA
+  * Hybrid Robotics
+  * Advisor: Professor Koushil Sreenath
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **May 2025 – Sep. 2025**: Robotics Institute, Carnegie Mellon University, Pittsburgh, PA
+  * Search-based Planning Lab
+  * Advisor: Professor Maxim Likhachev
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Sep. 2024 – May 2025**: Berkeley Artificial Intelligence Research Lab (BAIR), Berkeley, CA
+  * Darrell Group
+  * Advisor: Professor Trevor Darrell
+
+* **May 2024 – Aug. 2024**: Tsinghua University, Beijing, China
+  * Advisor: Professor Jia Liu
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+<!-- Sections to fill in when you have the content, e.g.:
+
+Skills
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* ...
+
+Awards and Honors
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* ...
+
+Service and Leadership
 ======
-* Currently signed in to 43 different slack teams
+* ...
+
+-->
