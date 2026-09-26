@@ -106,7 +106,7 @@ Previously, I received my bachelor's degree in Computer Science at **UC Berkeley
 
 I have also conducted research at the [Search-based Planning Lab](https://www.ri.cmu.edu/robotics-groups/search-based-planning-laboratory/), [Carnegie Mellon University Robotics Institute](https://www.ri.cmu.edu/), under Professor [Maxim Likhachev](https://www.cs.cmu.edu/~maxim/). Prior to that, I worked as a research assistant at Tsinghua University.
 
-I am also grateful to collaborate with all my graduate and undergraduate [collaborators](/academicpage/collaborators/), whose support and shared curiosity have shaped both my research and my growth as a researcher.
+I am also grateful to collaborate with all my graduate and undergraduate [collaborators](/collaborators/), whose support and shared curiosity have shaped both my research and my growth as a researcher.
 </div>
 
 <h2 class="about-section-title"><i class="fas fa-lightbulb" aria-hidden="true"></i>Research Interests</h2>
@@ -117,7 +117,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 <h2 class="about-section-title"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Education</h2>
 
 <div class="timeline-card">
-  <div class="timeline-logo"><img src="/academicpage/images/upenn_logo.png" alt="University of Pennsylvania"></div>
+  <div class="timeline-logo"><img src="/images/upenn_logo.png" alt="University of Pennsylvania"></div>
   <div class="timeline-body">
     <h3 class="timeline-title"><a href="https://www.upenn.edu/" target="_blank" rel="noopener">University of Pennsylvania</a></h3>
     <p class="timeline-sub">M.S. in Robotics</p>
@@ -129,7 +129,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 </div>
 
 <div class="timeline-card">
-  <div class="timeline-logo"><img src="/academicpage/images/ucberkeley_logo.svg" alt="UC Berkeley"></div>
+  <div class="timeline-logo"><img src="/images/ucberkeley_logo.svg" alt="UC Berkeley"></div>
   <div class="timeline-body">
     <h3 class="timeline-title"><a href="https://www.berkeley.edu/" target="_blank" rel="noopener">University of California, Berkeley</a></h3>
     <p class="timeline-sub">B.A. in Computer Science</p>
@@ -143,7 +143,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 <h2 class="about-section-title"><i class="fas fa-robot" aria-hidden="true"></i>Research Experience</h2>
 
 <div class="timeline-card">
-  <div class="timeline-logo"><img src="/academicpage/images/bair_logo.png" alt="BAIR"></div>
+  <div class="timeline-logo"><img src="/images/bair_logo.png" alt="BAIR"></div>
   <div class="timeline-body">
     <h3 class="timeline-title"><a href="https://bair.berkeley.edu/" target="_blank" rel="noopener">Berkeley Artificial Intelligence Research Lab (BAIR)</a></h3>
     <p class="timeline-sub">Hybrid Robotics · Advisor: Koushil Sreenath</p>
@@ -155,7 +155,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 </div>
 
 <div class="timeline-card">
-  <div class="timeline-logo"><img src="/academicpage/images/cmu_ri_logo.png" alt="CMU RI"></div>
+  <div class="timeline-logo"><img src="/images/cmu_ri_logo.png" alt="CMU RI"></div>
   <div class="timeline-body">
     <h3 class="timeline-title"><a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute, Carnegie Mellon University</a></h3>
     <p class="timeline-sub">Search-based Planning Lab · Advisor: Maxim Likhachev</p>
@@ -167,7 +167,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 </div>
 
 <div class="timeline-card">
-  <div class="timeline-logo"><img src="/academicpage/images/bair_logo.png" alt="BAIR"></div>
+  <div class="timeline-logo"><img src="/images/bair_logo.png" alt="BAIR"></div>
   <div class="timeline-body">
     <h3 class="timeline-title"><a href="https://bair.berkeley.edu/" target="_blank" rel="noopener">Berkeley Artificial Intelligence Research Lab (BAIR)</a></h3>
     <p class="timeline-sub">Darrell Group · Advisor: Trevor Darrell</p>
@@ -179,7 +179,7 @@ My research interests lie in robotics and robot learning, with a focus on enabli
 </div>
 
 <div class="timeline-card">
-  <div class="timeline-logo"><img src="/academicpage/images/tsinghua_logo.png" alt="Tsinghua University"></div>
+  <div class="timeline-logo"><img src="/images/tsinghua_logo.png" alt="Tsinghua University"></div>
   <div class="timeline-body">
     <h3 class="timeline-title"><a href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noopener">Tsinghua University</a></h3>
     <p class="timeline-sub">Advisor: Jia Liu</p>
