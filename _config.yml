@@ -168,8 +168,10 @@ exclude:
   - assets/js/plugins
   - assets/js/vendor
   - CHANGELOG
+  - CLAUDE.md
   - Capfile
   - config
+  - CONTRIBUTING.md
   - Dockerfile
   - Gemfile
   - Gruntfile.js
@@ -177,10 +179,13 @@ exclude:
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README
+  - talkmap.ipynb
+  - talkmap.py
   - tmp
   - vendor
 keep_files:
