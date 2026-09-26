@@ -1,6 +1,7 @@
 ---
 title: "Intermittent Object Interaction for High-Speed Humanoid Dribbling"
 collection: publications
+published: false
 category: manuscripts
 permalink: /publication/2026-9-2-Dribbling-number-5
 date: 2026-9-2
